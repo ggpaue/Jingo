@@ -1,0 +1,116 @@
+form { 
+	margin: 0px; 
+	padding: 0px;
+}
+
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0px;
+}
+
+caption, th, td {
+	text-align: left; 
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after { 
+	content: "";
+}
+
+blockquote, q { 
+	quotes: "" "";
+}
+
+.gllpLatlonPicker { 
+	margin: 0 auto;
+	border: 5px #F0F0F0;
+	border-radius: 5px;
+}
+
+.description { 
+	margin: 20px 0; 
+	line-height: 1.2em;
+}
+
+.gllpLatlonPicker h5 {
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight:500px;
+	color: #000000;
+}
+
+.gllpLatlonPicker .gllpLatitude,  
+.gllpLatlonPicker .gllpLongitude,
+.gllpLatlonPicker .gllpZoom 
+{
+	width: 60px;
+}
+
+
+.gllpLatlonPicker .gllpSearchField {
+	background: url(search-dark.png) no-repeat 8px 4px #fcfcfc;
+    border: 0 none;
+    font: 12px Calibri;
+    color: #777777;
+    width: 172px;
+	height: 12px;
+	margin-left: 0px;
+	margin-top: 3px;
+    padding: 6px 20px 6px 20px;
+	float: left;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+.gllpLatlonPicker .gllpSearchField:focus {
+	border: 0px solid #fff;
+    box-shadow: 0px 0px 5px #fff;
+    -moz-box-shadow: 0px 0px 5px #fff;
+	-moz-transition: border linear 1s;
+	transition: border linear 1s;
+}
+
+
+.gllpLatlonPicker .gllpSearchButton {
+	height: 24px;
+	margin-top: 3px;
+	margin-bottom: 2px;
+	margin-right: 0px;
+	float: right;
+	padding: 1px 15px 5px 15px;
+
+	font-family: 'Calibri', serif;
+	font-weight: 900;
+	font-size: 15px;
+	color: #404040;
+	background: rgba(240,240,240, 1.0);
+	
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+	cursor: pointer;
+	
+	box-shadow: inset 0 1px 2px rgba(255,255,255,0.5);
+	-moz-box-shadow: inset 0 1px 2px rgba(255,255,255,0.5);
+	-webkit-box-shadow: inset 0 1px 2px rgba(255,255,255,0.5);
+}
+
+.gllpLatlonPicker .gllpSearchButton:hover {
+	background: #F9C549;
+	color: #FFFFFF;
+}
+
+.gllpLatlonPicker .gllpSearchButton:focus {
+	position: relative;
+	bottom: -1px;
+}
+
